@@ -130,6 +130,9 @@ class Timers(Resource):
 
     def get(self, timer_id):
         for timer in timer_data:
+        
+            print("timer_id = ", timer_id);
+            
             if timer["timer_id"] == timer_id:
                 return timer
             else:
