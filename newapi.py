@@ -2,7 +2,7 @@
 # sudo ps -ax | grep python
 # sudo kill <pid>
 #
-#https://github.com/StephenDsouza90/python-flask-restplus-rest-api
+# https://github.com/StephenDsouza90/python-flask-restplus-rest-api
 
 
 import RPi.GPIO as GPIO
